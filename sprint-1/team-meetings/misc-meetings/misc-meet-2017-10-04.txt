@@ -1,0 +1,14 @@
+Donovan Miller
+Nate Spence
+Halie Carton
+Dustin Boyd
+
+date 10/04/2017
+
+We Discussed:
+MySQL roadblocks and how we are planning on solving them.
+Using php over python.
+Project organization within our repo
+Got Halie access to the Official website
+We talked about branching or porting into python in a later, after the semester, iteration.
+look into Amazon Images - mysql

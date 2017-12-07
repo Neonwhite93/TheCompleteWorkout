@@ -1,0 +1,19 @@
+Dustin Boyd
+Halie Carton
+Donovan Miller
+Nate Spence
+
+Daily goals:
+
+	Update the repo with content from last night's meeting,
+	ensure that Sprint 3 content matches requirements from project handout
+	
+	Discussed C&C diagram
+	Created C&C diagram
+
+	Added readme content to past sprints
+	Moved content from old sasqquatch repo to CS 458 repo to avoid confusion (hopefully)	
+
+	UML diagram...?
+
+	

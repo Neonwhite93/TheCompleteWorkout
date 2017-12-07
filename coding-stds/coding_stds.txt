@@ -1,0 +1,37 @@
+File Structure
+
+ Lowercase file names with underscores, no spaces
+ e.g. this_file_is_named_properly.txt
+ If Project Sasquatch is going to be included in the file name:
+ prj_sasq instead of project_sasquatch
+
+Code
+
+ Javascript:
+
+ 	Allman bracing, using tabs:
+ 	For example:
+  
+	while (x == y)
+	{
+		something();
+		somethingelse();
+	}
+
+
+ Comments(Code)
+
+ 	Comment block at top of each page
+ 	Project Name, Date created, Included functions
+ 	Note within top block for each edit (who, when, what)
+ 	e.g. -Nathan 8/19/17 (added to conventions)
+	Comment for each big section/module
+ 	Explanation of anything not self-explanatory within code
+
+ Comments(Database)
+
+	Comment block at top of each page
+	Project Name, Date created
+	Note within top block for each edit (who, when, what)
+	e.g. -Nathan 8/19/17 (added to conventions)
+	Comment for each create table statement and insert group

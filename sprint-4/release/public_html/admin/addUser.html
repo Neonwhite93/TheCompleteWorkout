@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+Last Modified: DBoyd 10-9-17
+-->
+<html>
+	<div class = "headerLogin">
+		<a href="landingHome2.html">Login</a>
+	</div>
+	
+	
+	<head>
+	
+		<title>TCW Add Users</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="tcw_style.css" />
+				
+	</head>
+
+	<body>
+
+		<h1 id = "app_title" class = "frame_bar" >Add Users</h1>
+			
+		<div id = "view_panel" class = "center">	
+			<h1 id = "app_title">Manual User Entry</h1>
+			<form>
+				First Name:
+				<input type="text" name="newFName1">
+				Last Name:
+				<input type="text" name="newLName1">
+				Email:
+				<input type="text" name="newEmail1">
+				Section:<!-- drop down -->
+				<select name="section">
+					<option value="pe9am">PE158_0900AM</option>
+					<option value="pe10am">PE158_1000AM</option>
+					<option value="pe11am">PE158_1100AM</option>
+					<option value="footballTeam">Football</option>
+				</select><br><br>
+				<input type="submit" name="Add User" value="Add New User">
+			</form>
+			
+		</div>
+		
+		<div id = "view_panel" class = "center">
+			<h2 id = "app_title">Pending Registration Requests</h2>
+			
+			<form action="/action_page.php">
+				<input type="checkbox" name="approve1" value="approve1">Approve
+				<input type="checkbox" name="deny1" value="deny1">Deny
+				<input type="text" name="fName" value="First Name1">
+				<input type="text" name="lName" value="Last Name1">
+				<input type="text" name="email" value="Email1">
+				<input type="text" name="section" value="Section1"><br>
+				
+				<input type="checkbox" name="approve1" value="approve2">Approve
+				<input type="checkbox" name="deny1" value="deny2">Deny
+				<input type="text" name="fName" value="First Name2">
+				<input type="text" name="lName" value="Last Name2">
+				<input type="text" name="email" value="Email2">
+				<input type="text" name="section" value="Section2"><br>
+				
+				<input type="checkbox" name="approve1" value="approve3">Approve
+				<input type="checkbox" name="deny1" value="deny3">Deny
+				<input type="text" name="fName" value="First Name3">
+				<input type="text" name="lName" value="Last Name3">
+				<input type="text" name="email" value="Email3">
+				<input type="text" name="section" value="Section3"><br>
+				
+				<input type="checkbox" name="approve1" value="approve4">Approve
+				<input type="checkbox" name="deny1" value="deny4">Deny
+				<input type="text" name="fName" value="First Name4">
+				<input type="text" name="lName" value="Last Name4">
+				<input type="text" name="email" value="Email4">
+				<input type="text" name="section" value="Section4"><br>
+				
+				<input type="checkbox" name="approve1" value="approve5">Approve
+				<input type="checkbox" name="deny1" value="deny5">Deny
+				<input type="text" name="fName" value="First Name5">
+				<input type="text" name="lName" value="Last Name5">
+				<input type="text" name="email" value="Email5">
+				<input type="text" name="section" value="Section5"><br>
+				
+				<br><br>
+				<input type="submit" value="Process Requests">
+			</form>
+			
+		</div>
+	
+	<center><a href="https://www.humboldt.edu/"><img src="roundHumboldtLogo.jpg"
+		alt="Humboldt.edu">
+	</a></center>
+	</body>
+	
+</html>

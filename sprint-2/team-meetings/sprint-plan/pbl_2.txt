@@ -1,0 +1,94 @@
+Product Backlog List @ time of Sprint 2
+
+User Stories:
+
+User stories preserved from PBL-1
+
+As an instructor 
+I want to organize the exercises by category
+So that I can assign by category for balanced workouts
+Estimated time: 16 hours
+Acceptance criteria:
+	* names of categories are displayed -- THIS IS DONE
+	* all exercises are placed within one (and only one) of five categories 
+
+		-- THIS needs to be done in the Database, but is working in the front-end
+		-- ALSO, need to remove duplicates!
+Priority: 1
+
+
+As a a user ------------------ NOTE: this story has been modified from the version in pbl_1
+I want an appealing and easy to use interface
+SO that I can get the information I need quickly and safely
+Time estimated: 2 hours	
+Acceptance criteria:
+	* Detailed and SAFE instructions available for each exercise
+Priority: 2
+
+New User Stories for sprint 2:
+
+As a developer 
+I would like to connect the website to the database
+So that I can access the database from the web app 
+Estimated time: 5 hours
+Acceptance criteria:
+	* Verify connection to DB programatically
+	* Display something from the DB on the web app
+	* Change content in DB from web app
+Priority: 3
+
+As a user
+I would like the app to remember the accordion I was in
+So that I can resume where I left off after viewing a video
+Estimated time: 8 hours
+Acceptance criteria:
+	* After viewing video when you return to the main page the accordion
+	  you last used is still open.
+	* AND, with above, the accordion scroll-bar should be focused 
+          on the button you last clicked
+Priority: 4
+
+As a android phone user
+I would like to be able to pause the video while it plays
+So that I can control the pace of viewing the video
+Estimated time: 2 hours
+Acceptance criteria:
+	* User on android phone can pause video mid-play
+Priority: 5
+
+
+As a android phone user
+I would like to be able to control the volume, slider, settings of the video
+So that I can customize my video experience
+Estimated time: 2 hours
+Acceptance criteria:
+	* User on android phone can access youtube video controls
+Priority: 6
+
+As a developer
+I would like to dynamically-populate the web app's exercises from the database
+So that I can easily add exercises to the DB without creating tons of front-end work
+Estimated time: 12 hours
+Acceptance criteria:
+	* When a new exercise is added to the DB, the web app can refresh to automatically
+	  generate front-end content to match standard template.
+Priority: 7
+
+As a user 
+I would like to add exercises to a playlist 
+So that I can plan/track my exercises/workouts
+Estimated time: 12 hours ---------------------- NOTE: this will probably be subdivided into multiple user-stories before being tackled
+Acceptance criteria:
+	* I can create a playlist
+	* I can populate my playlist from the main exercise list
+	* I can access and progress through my playlist later
+Priority: 8
+
+As an instructor
+I would like to add exercises to the database from a GUI
+So that I can easily make changes to the exercise list myself (rather than requiring technical assistance)
+Estimated time: 10 hours
+Acceptance criteria: ---------------------- NOTE: this will probably be subdivided into multiple user-stories before being tackled
+	* Instructor can log in to admin screen
+	* Instructor can use drop-downs and fields to add/remove/edit DB content
+Priority: 9

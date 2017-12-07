@@ -1,0 +1,30 @@
+9/28/2017
+7:30-9:00
+
+Dustin Boyd
+Halie Carton
+Donovan Miller
+Nate Spence
+Kris Anderson
+Nathan Ortolan
+
+Topics discussed today:
+  Today was a Daily Scrum;
+  Donovan Miller:
+  [7:34 PM] dsm425: I am currently working on practicing getting our tables into my personal phpmyadmin, because I am unable to get into thecompleteworks. I want to finish the database and help get the database connected to the site.
+  [7:34 PM] dsm425: Roadblock again accessing phpmyadmin for thecompleteworkout
+  Resolve roadblock: If I finish my errands tomorrow at a reasonable time Ill go the the gym then or I will have to go in tuesday morning.
+
+  Dustin Boyd:
+   So, not much as changed. I've not gotten much done on my side, alas I've been focusing more on my assignments. I'm wanting to move forward with coding a admin portal, but before I get too heavy in it I would like to see @HalieCarton & @NateSpence code so I can mimic the same style. 
+   Still working out the kinks to get connected to our github
+
+  Halie Carton:
+    I just got home not too long ago. I haven't done too much for the project, but the Python script for creating the exercise pages is on the my app GitHub. I'll see if I can bust out a bunch of exercise pages this weekend.
+
+  Nate Spence:
+    Unable to join us this time due to his Thesis.
+
+
+
+Next meeting: Saturday, 9/30/2017, 7:30pm

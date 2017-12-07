@@ -1,0 +1,22 @@
+Unit testing plan for this sprint:
+
+	Ensure admin page displays
+	Ensure all content displays on front-end page
+		and that all buttons can be clicked
+			and have the intended result...
+
+Acceptance testing plan for this sprint:
+
+	* display all workouts and their descriptions
+	* link to videos/details of each exercise
+
+	* names of categories are displayed
+	* all exercises are placed within one (and only one) of five categories
+
+	* Site is published onto HSU's official network
+	* Site is readable by public
+	* Site is writeable by developers
+
+	* Short summary available for each exercise
+	* Thumbnail available for each exercise
+	* Detailed and SAFE instructions available for each exercise

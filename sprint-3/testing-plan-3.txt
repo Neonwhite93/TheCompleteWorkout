@@ -1,0 +1,17 @@
+Proposed unit testing for sprint 3:
+
+	Accordion content from previous sprint still working after superficial CSS changes
+	Scaling down window, or loading on phone will remove background image
+
+Proposed acceptance testing for sprint 3:
+
+	* Main application content will be clamped at reasonable horizontal/vertical dimensions (phone-esque scale)
+	* Background image will fill in remaining space
+
+	* Users can log in, using their HSU ID/password
+
+	* At time of log in users will be directed to admin or regular content 
+          depending on their account credentials
+
+	* Visual diagram of various pages and interactions between pages
+	* Visual diagram of interactions between web app and database

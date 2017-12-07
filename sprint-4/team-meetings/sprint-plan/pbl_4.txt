@@ -1,0 +1,59 @@
+NOTE -- this needs to be updated. Currently just contains stuff from pbl_3.txt
+
+Product Backlog List @ time of Sprint 4
+
+User Stories:
+
+New user stories for Sprint 4:
+
+As a student
+I would like to be able to create custom workouts by adding sets and reps to different categories
+So that I can meet the requirements for an exercise in the class
+Estimated time: 10 hours
+Acceptance criteria:
+	* Students can visit MyWorkout page, add exercises, sets and reps 
+          <--- eventually subtraction will be allowed too
+Priority: 1
+
+Leftover user stories for Sprint 3:
+
+
+As a developer
+I would like to utilize the database to determine whether a user is an administrator or student
+So that I can direct them to the appropriate page.
+Estimated time: 10 hours
+Acceptance criteria:
+	* At time of log in users will be directed to admin or regular content 
+          depending on their account credentials
+Priority: 2
+
+As a user
+I would like the app to remember the accordion I was in
+So that I can resume where I left off after viewing a video
+Estimated time: 8 hours
+Acceptance criteria:
+	* After viewing video when you return to the main page the accordion
+	  you last used is still open.
+	* AND, with above, the accordion scroll-bar should be focused 
+          on the button you last clicked
+Priority: 3
+
+As an instructor
+I would like to add exercises to the database from a GUI
+So that I can easily make changes to the exercise list myself (rather than requiring technical assistance)
+Estimated time: 10 hours
+Acceptance criteria: ---------------------- NOTE: this will probably be subdivided into multiple user-stories before being tackled
+	* Instructor can log in to admin screen
+	* Instructor can use drop-downs and fields to add/remove/edit DB content
+Priority: 4
+
+As a user 
+I would like to add exercises to a playlist 
+So that I can plan/track my exercises/workouts
+Estimated time: 12 hours ---------------------- NOTE: for now this has been replaced by the MyWorkout content currently at priority 1
+						      playlists may be added later as a separate idea...
+Acceptance criteria:
+	* I can create a playlist
+	* I can populate my playlist from the main exercise list
+	* I can access and progress through my playlist later
+Priority: 5

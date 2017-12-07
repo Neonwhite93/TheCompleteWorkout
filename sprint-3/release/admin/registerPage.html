@@ -1,0 +1,93 @@
+<?php
+	tcw_start();
+	session_start();
+?>
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+Last Modified: DBoyd 10-9-17
+-->
+<html>
+
+	<head>
+	
+		<title>Register - The Complete Workout</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="src_style.css" />
+				
+	</head>
+
+	<body>
+		<?php
+		// define variables and set to empty values
+		$nameErr = $emailErr = $genderErr = $websiteErr = "";
+		$name = $email = $gender = $comment = $website = "";
+
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			if (empty($_POST["name"])) {
+			$nameErr = "Name is required";
+			} else {
+				$name = test_input($_POST["name"]);
+				// check if name only contains letters and whitespace
+				if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+					$nameErr = "Only letters and white space allowed"; 
+				}
+			}
+  
+			if (empty($_POST["email"])) {
+				$emailErr = "Email is required";
+			} else {
+				$email = test_input($_POST["email"]);
+				// check if e-mail address is well-formed
+				if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+					$emailErr = "Invalid email format"; 
+				}
+			}
+		}
+
+		function test_input($data) {
+			$data = trim($data);
+			$data = stripslashes($data);
+			$data = htmlspecialchars($data);
+			return $data;
+		}
+		?>
+		
+		<h1 id = "app_title" class = "frame_bar" >Register for The Complete Workout</h1>
+			
+		<div id = "view_panel" class = "center">	
+			
+		<h3> Please complete all sections </h3>
+		<form method = "POST" action = "#">
+			<p>
+				<label for = "reqName">Name:</label>
+				<input type="text" name="name" value="">
+					<span class="error">* <?php echo $nameErr;?></span>
+				<br><br>
+				<label for = "reqEmail">E-mail:</label>
+				<input type="text" name="email" value="">
+					<span class="error">* <?php echo $emailErr;?></span>
+				<br><br>
+				<label for = "section">Section:</label> 
+				<select name="section">
+					<option value="pe9am">PE158_0900AM</option>
+					<option value="pe10am">PE158_1000AM</option>
+					<option value="pe11am">PE158_1100AM</option>
+					<option value="footballTeam">Football</option>
+				</select>
+			</p>
+			<p>
+				<input type="submit" name="submit" value="Submit Request"></td>
+			</p>
+			</table>
+		</form>
+		</div>
+
+	</body>
+	
+</html>

@@ -1,0 +1,24 @@
+Hey, we actually have an email transaction indicating a meeting for this sprint!
+
+******
+
+TheCompleteWorkout app 
+
+Donovan Miller &lt;dsm425@humboldt.edu>
+Oct 28
+
+to ajp3 
+
+Hello Drew, 
+The CS 458 team would like to meet with you about the current state of the app. What is a time that would work for you to meet? About a half hour would be a good amount of time for us. 
+This Thursday 11/02/2017 at 10:30 AM would work for us, but let me know what would be a good time for you.
+
+Thank you
+
+
+Andrew J Petersen &lt;andrew.petersen@humboldt.edu>
+Oct 28
+
+to me 
+
+Sounds great! Thanks for everything!

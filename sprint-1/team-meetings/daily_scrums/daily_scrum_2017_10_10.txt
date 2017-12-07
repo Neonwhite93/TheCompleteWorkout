@@ -1,0 +1,33 @@
+date 10/10/2017
+time start: 7:30pm
+time end:8 - 9pm
+
+Members in attendance:
+Donovan Miller
+Dustin Boyd
+Nate Spence
+Halie Carton 
+
+Donovan
+1) since last meeting I have added the mysql version of foreign keys
+2) I want to get some insert statements in for testing and start using the db on the webapp
+3) No roadblocks atm
+
+Dustin
+1) So I've been working on the request system for students to request access accounts
+2) I'm going to continue to try and hone the PHP used in it
+3) Currently the hiccup is re-learning PHP and will eventually need to adapt it to actually work with the eventual database.
+
+Nate
+1) Since the last meeting I've gone through and added placeholder videos for all of the exercises in our Excel sheet. There's at least something (8+) exercises in each category now.
+2) What I'd like to do next is work with cookies to achieve seamless transitions between the exercise pages and the index page. I want it to remember which accordion you had open, and where you were in the scroll-bar.
+3) No roadblocks right now.
+
+Halie
+1) I got the two groups of exercises webpages created.
+2) I'm researching ways to keep the accordion open to the exercise the user chose.
+3) No internet thanks to fire.
+
+Next meeting 10/12/2017
+
+ "The information in this report is accurate, to the best of my knowledge"

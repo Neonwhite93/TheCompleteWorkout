@@ -1,0 +1,42 @@
+<!--
+	login_fieldset.html
+	A PHP called form to generate a login portal for users when their session doesn't
+		have their 'next_screen' set
+-->
+			
+			<fieldset>
+                <legend> Login: 
+                    </legend>
+
+                <label for="name_entry"> Username: </label>
+                <input type="text" name="username" id="name_entry"
+                       class = "form-control"  placeholder = "e.g. SirLiftsALot" required autofocus /> 
+
+                <label for="pwd_entry"> Password: </label>
+                <input type="password" name="password" id="pwd_entry" 
+                       placeholder = "e.g. GetSwole2017!!!" required autofocus />
+					   
+				<br>
+				
+				Forgot your password?
+				<br>
+				<a href="https://pbs.twimg.com/media/DKW_xbwVwAAEo8b.jpg" class="forgotPwd">
+					Forgot password?
+				</a>
+				
+				<!-- <link to register> -->
+				<br><br><br>
+				<div>
+					Need to register? Follow the link.
+					<br>
+					<a href="registerPage.html" class="goRegister">
+						Register
+					</a>
+				</div>
+				
+				<div>
+					Continue as guest?
+					<a href="http://www2.humboldt.edu/thecompleteworkout/">Continue
+					</a>
+				</div>
+            </fieldset>

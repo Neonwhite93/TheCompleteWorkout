@@ -1,0 +1,28 @@
+Dustin Boyd
+Donovan Miller
+Nate Spence
+Halie Carton
+
+date 10/25/2017
+
+	-- Discussed priorities moving forward, given that DB connection issue has been resolved.
+		-- Become familiar with PHPMyAdmin connection
+		-- Bring front-end closer to Sam's designs
+		-- Prepare deliverable for showing to client/students
+			-- Multiple branches for color experimentation?
+
+	-- Reviewed Dustin's Admin work
+
+	-- Button behavior glitches
+	-- Planned mutiny over descriptions...
+
+
+We dated next meeting:
+	10/28/2017 -- 5:30 - ~7 pm
+
+"This information is true to the best of my knowledge."
+
+- Dustin Boyd
+- Halie Carton
+- Donovan Miller
+- Nate Spence

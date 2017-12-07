@@ -1,0 +1,23 @@
+9/27/2017
+9:30-10:50
+
+Dustin Boyd
+Halie Carton
+Donovan Miller
+Nate Spence
+
+Topics discussed today:
+
+	* setup of github organization
+	* touching base on project developments
+		(mysql -- status: down)
+	* python script for automation of HTML
+		* reviewed halie's code, discussed modifications
+		  for compatibility with project organization 
+	* status of current front-end
+	* added initial pair of user stories to pbl
+	* added coding standards
+
+Next meeting: thursday, 9/28/2017, 7:30pm
+
+

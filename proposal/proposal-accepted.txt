@@ -1,0 +1,17 @@
+
+I have cloned your RepoMan repository and looked over your proposal-bid.pdf.
+
+You project proposal is accepted. Be sure that you follow the project
+handout guidelines starting at this point as you continue with your project.
+
+One note: you were asked to make a subdirectory:
+
+proposal
+
+...and put proposal-bid.pdf into that subdirectory; you had it on
+the top-level instead. I have corrected this so that I can put these 
+comments into your proposal directory along with your proposal bid.
+
+Project Milestone 1 grade: 4.5 / 5.0
+
+-- Sharon Tuttle

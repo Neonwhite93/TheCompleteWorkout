@@ -1,0 +1,41 @@
+Unit testing plan for this sprint:
+
+	// PASS
+
+	Ensure admin page displays <-- success!
+	Ensure all content displays on front-end page
+		and that all buttons can be clicked
+			and have the intended result...
+		placeholder search content accordion <-- opens, pass
+		placeholder search bar <-- allows text entry, pass
+		placeholder nav bar <-- displays
+		
+		Exercise categories 
+			<-- all display, pass
+			<-- all open, pass
+			<-- all videos/text content displays, pass (except for one, see below)
+				EXCEPT for broken video link in Goblet Squat
+		
+Acceptance testing plan for this sprint:
+
+	// PASS
+
+	* display all workouts and their descriptions <-- pass
+	* link to videos/details of each exercise <-- pass
+
+	* names of categories are displayed <-- pass
+
+	* Short summary available for each exercise <-- pass (although these are just placeholders!)
+
+
+	// FAIL
+
+	* all exercises are placed within one (and only one) of five categories
+		<-- eeh... some duplicates I believe!		
+
+	* Thumbnail available for each exercise <-- eh... no
+	* Detailed and SAFE instructions available for each exercise <-- no
+
+	* Site is published onto HSU's official network <-- haven't gotten this working yet
+	* Site is readable by public <-- haven't gotten this working yet
+	* Site is writeable by developers <-- haven't gotten this working yet

@@ -1,0 +1,12 @@
+overview
+
+implement a connection between My_workout and main_app 
+
+javascript for sets and workouts - nathon and donovan and nate if needed. 
+
+refine my_workout - donovan 
+
+login - dustin nate or donovan if needed. 
+pair programing halie and dustin
+bookkeeping - nate. 
+

@@ -1,0 +1,38 @@
+11/2/2017
+time start: 7:30pm
+time end:8 - 9pm
+
+Members in attendance:
+Halie Carton
+Donovan Miller
+Nate Spence (gave 3s early -- had to leave town for the weekend)
+
+
+Donovan
+
+1) 
+2) 
+3) 
+
+Dustin
+1) 
+2) 
+3) 
+
+Nate
+1) Pair-programmed with Halie to implement improved frontend visuals 
+  (scale-clamping for main app content, background in web browser, and related media queries)
+2) Hopefully get the updated video content from Donovan's excel sheet into the app. 
+   Fix broken links.
+3) No roadblocks.
+
+Halie
+1) 
+2) 
+3) 
+
+Next meeting 11/7/2017
+
+ "The information in this report is accurate, to the best of my knowledge"
+
+- Nate Spence

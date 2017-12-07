@@ -1,0 +1,23 @@
+Donovan Miller
+Nate Spence
+Halie Carton
+
+Dustin is busy with kid-stuff
+
+date 11/1/2017
+
+Daily discussions...
+
+	* Add background/dimension constraints to existing main page
+	* Discussed upcoming meeting with client
+	* Discussed organization of "My workout" section
+		* Break down into categories
+			* Five workouts per category?
+			* History?
+			* Short term goals vs. DB-integration long term?
+  	* Discussed session duration for MyWorkout
+
+"This information is true to the best of my knowledge."
+- Halie Carton
+- Donovan Miller
+- Nate Spence

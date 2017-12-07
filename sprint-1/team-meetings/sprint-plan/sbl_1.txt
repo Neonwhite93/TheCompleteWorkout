@@ -1,0 +1,39 @@
+// NOTE -- priority implicit in ordering of user stories!
+
+
+As an instructor 
+I would like students to have a list of exercises with demonstrations
+So that I can assign or reference workouts from this list
+Estimated time: 20 hours
+Acceptance criteria:
+	* display all workouts and their descriptions
+	* link to videos/details of each exercise
+Priority: 1
+
+As an instructor
+I want to organize the exercises by category
+So that I can assign by category for balanced workouts
+Estimated time: 16 hours
+Acceptance criteria:
+	* names of categories are displayed
+	* all exercises are placed within one (and only one) of five categories
+Priority: 2
+
+As a developer
+I would like to access the web app onto HSU network
+So that I can develop and maintain software for campus purposes
+Estimated time: 4 hours
+Acceptance criteria:
+	* Site is published onto HSU's official network
+	* Site is readable by public
+	* Site is writeable by developers
+Priority: 3
+
+As a student
+I want an appealing and easy to use interface
+SO that I can get the information I need quickly and safely
+Time estimated: 2 weeks	
+	* Short summary available for each exercise
+	* Thumbnail available for each exercise
+	* Detailed and SAFE instructions available for each exercise
+Priority: 4

@@ -1,0 +1,37 @@
+12/5/2017
+time start: 7:00pm
+time end: 9:00pm
+
+Members in attendance:
+Dustin Boyd
+Halie Carton
+Donovan Miller
+Nate Spence
+
+Dustin
+1) I've been banging my head against the wall with the mysql inserts / queries from the site.
+2) I hope to get the query working tonight.
+3) PHP is my roadblock, and I'm going to keep at it.
+
+Halie
+1) Working on mysql inserts / queries with dustin
+2) hope to get the queries working tonight
+3) Working through PHP roadblock
+
+Donovan
+1) working one my workout part of the presentation 
+2) want to finish it 
+3) No roadblocks
+
+
+Nate
+1) Been updating testing plans/client documentation for repo
+2) Want to finish this by the end of the night (/ prep for presentation tomorrow!)
+3) No clear roadblocks
+
+ "The information in this report is accurate, to the best of my knowledge"
+
+- Nate Spence
+- Donovan Miller
+- Dustin Boyd
+- Halie Carton

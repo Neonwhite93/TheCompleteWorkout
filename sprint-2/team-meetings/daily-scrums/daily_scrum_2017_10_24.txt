@@ -1,0 +1,36 @@
+10/24/2017
+time start: 7:30pm
+time end:8 - 9pm
+
+Members in attendance:
+Dustin Boyd
+Halie Carton
+Donovan Miller
+Nate Spence
+
+
+Donovan
+
+1) I have added more descriptions to the exercises and continue to search for how to set up the site with the db
+2) I would like to finish both descriptions and connecting db before next meeting
+3) DB is the current roadblock, if anyone can findout how to get it connected that would be awesome.
+
+Dustin
+1) I've done more page forming for all of the different screens of the login / admin areas.
+2) I think the next logical step is to try and hammer out getting the PHP session to work with the server
+3) Road block is going to figure out how to connect and also how to discern the admin from users when logging in with PHP
+
+Nate
+1) Since last meeting I've gone through index.html and made a version w/o thumnails or description text. 
+2) Before next meeting I'd like to have the index/exercise pages content better automated with php. Even without DB connectivity there's stuff we 
+   could do there which would make generating the accordions easier, and making visual changes less tedious. Right now that's a pain.
+3) No obvious roadblocks right now. Although I'd like to get the DB connection stuff running soon for full automation.
+
+Halie
+1) Resolved issues re: exercise videos -- now everyone can access video controls. Investigated ways to make the video expand to full-screen on one click.
+2) Currently working on removing green boxes from the main menu accordions.
+3) Roadblock -- internet troubles at home
+
+Next meeting 10/28/2017
+
+ "The information in this report is accurate, to the best of my knowledge"

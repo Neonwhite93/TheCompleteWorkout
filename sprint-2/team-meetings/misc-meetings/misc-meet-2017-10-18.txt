@@ -1,0 +1,12 @@
+Donovan Miller
+Nate Spence
+Halie Carton
+
+Dustin is sick
+
+date 10/18/2017
+
+We caught up on book-keeping for the past sprint and current sprint.
+We dated next meeting:
+	10/19/2017 -- 7 - 9 pm (partial)
+Halie updated CSS to hopefully resolve two issues from last sprint.

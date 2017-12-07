@@ -1,0 +1,14 @@
+we need to automate the population of src_main's 
+accordions with exercises from the exercise folder.
+
+I think I know how we'd do this in php, but we should figure out what 
+the approach is here.
+
+this might be sub-folder intensive (and would need to be scrapped down the line)
+but one possibility is:
+
+	exercises/[exercise_type]/[specific_exercise]
+
+folder structure, and then within [specific_exercise] we'd put
+thumb.jpeg, basic_info.txt, [specific_exercise].html 
+and then populate the accordions in src_main from there...

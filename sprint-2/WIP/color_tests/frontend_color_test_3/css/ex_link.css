@@ -1,0 +1,137 @@
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.ex_link
+{
+	width: 100%;
+	height: 5%;
+	border: 0.2em white solid;
+	border-radius: 5px;
+}
+
+.ex_link:hover
+{
+	background-color: #808080;
+}
+
+.frame
+{
+	margin-right: 2em;
+	margin-top: -1px;
+	width: 30%;
+	height: 30%;
+	float: left;
+}
+
+/* For making the exercise preview image in the main nav 
+   float to the left and have the exercise name and 
+   description line up beside it.
+*/
+.ex_img
+{
+	width: 50%;
+	height: 50%;
+	margin: 10%;
+}
+
+/* This styles the div containing the exercise name and 
+   description, so that it will flow up next to the image
+*/
+
+.ex_button
+{
+	width: 100%;
+	height: 100%;
+	padding-top: 0.1px;
+	background-color: #333333;
+}
+
+h3
+{
+	padding : 0%;
+	padding-left: 1%;
+	color: #ffffff;
+}
+
+p.ex_button
+{
+	color: white;
+}
+
+
+/* ------------------------------------------
+ACCORDION CONTENT
+------------------------------------------ */
+
+
+/* Styles ul element */
+ul 
+{
+    list-style-type: none;
+	margin: 0%;
+    padding: 0%;
+	padding-top: 0;
+}
+
+li a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 0.25px; // this makes entire list item a link
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion
+{
+    background-color: #333333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em; 
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 4px solid #ffc324;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on 
+(add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover 
+{
+    background-color: #808080;
+    color: white;
+}
+
+/* Styles effects on accordion after mouse exit */
+button.accordion:after
+{
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    background-color: white;
+    border: 2px solid #933621;
+    border-radius: 50%;
+    padding: 3px;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Styles effects on accordion after mouse exit, if accordion left active */
+button.accordion.active:after
+{
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel 
+{
+    padding: 0 18px;
+    display: none;
+}

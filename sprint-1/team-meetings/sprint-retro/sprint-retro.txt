@@ -1,0 +1,36 @@
+Date and time
+10/14/17:
+time start 6pm
+time end 7pm
+
+Team Members there: 
+Nate 
+Dustin 
+Donovan 
+Halie was sick and couldn't make it.
+
+Client status: Satisfied
+
+What worked:
+ * good progress on DB
+ * organization/automation work for front-end
+ * started getting in sync with CS 458 handout
+
+What didn't:
+ * limited time
+ * delays
+ * members out of town
+ * fire took out AT&T
+ * designs were lost in hipchat history
+
+Brainstorming -- 
+
+ * Discussed front-end anchoring at accordion button
+ * Getting designs in GDrive 
+ * Getting descriptions for workouts up
+ * MySQL PHP MyAdmin to web app
+
+"The Information in this report is accurate, to the best of my knowledge."
+Donovan Miller
+Nate Spence
+Dustin Boyd

@@ -1,0 +1,34 @@
+Donovan Miller
+Nate Spence
+Halie Carton
+Dustin Boyd
+
+date 10/10/2017
+
+We Discussed:
+
+Dustin's new login page CSS -- and applying that CSS to other front-end content
+Whether or not delve into Boostrap
+Prioritizing database-html interaction with next sprint
+	Populating accordions
+Which features to make room for or not address until later
+How we're going to handle videos -- youtube channel or private server
+Discussed mock playlist page to show DB connectivity
+Looked into cookies for retaining accordion info
+
+
+DB:
+	Inserted all 5 categories, organized local file structure for DB
+
+
+Middle end:
+	Learning through play -- continued work on login page
+
+Front end: 
+	Outlined remainder of current sprint and possible future sprints:
+		Remainder of current sprint:
+			Cookies / Anchors
+		Next sprint:
+			DB connection (PHP)
+		Following sprint:
+			Playlist mockup

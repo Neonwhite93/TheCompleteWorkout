@@ -1,0 +1,43 @@
+11/28/2017
+time start: 5:30pm
+time end: 9:10pm
+
+Members in attendance:
+Nate Spence
+Dustin Body
+Halie Carton
+Donovan Miller
+
+Dustin
+1) I've been working with Halie to un-bork the login flow
+2) Halie and I are on the calendar to work together some more this week
+3) My roadblocks are that my php logic keeps borkin' the thing, so I've got some ways to go but it's my priority right now 
+
+Halie
+1) I worked with Dustin last week to get the flow of the sign-in page working
+2) I am planning to work with Dustin to complete the sign-in pages (namely, making it so that different users get different menu options aka Admin can look at everyone's submitted workouts, create playlists, etc. and users can submit their workouts, view playlists, etc.)
+3) No roadblocks besides time (the ever present one)
+
+
+Donovan
+1) I hae finished altering the my_workout page with regards to the javascript to create the add exercise and add set buttons.
+2) I want to get the current pages connected and add a submit button that will do something, like save the users workout. 
+3) No roadblocks atm...
+
+
+Nate
+1) I have updated the CS 458 repo with better organization, and did at least a first pass putting all of the content from our various WIP 
+   directories into the corresponding sprint dir, with a "release" subdirectory for each sprint. Also put in a sprint-4 directory, 
+   which is where I'll put everything that you guys have been working on since the last meeting. 
+2) Now needing to go through and make sure our "testing" looks reasonably well documented, as best I can. 
+   Will update code comments too, at least on the release for each sprint. Still need to do diagrams. 
+3) No roadblocks yet --
+
+Next meeting is 11/29/2017 during lab.
+
+ "The information in this report is accurate, to the best of my knowledge"
+
+- Nate Spence
+- Donovan Miller
+- Dustin Boyd
+- Halie Carton

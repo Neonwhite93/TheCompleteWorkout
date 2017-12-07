@@ -1,0 +1,23 @@
+NOTE -- currently placeholder, just duped sbl_3.txt
+
+New content for Sprint 4:
+
+As a student
+I would like to be able to create custom workouts by adding sets and reps to different categories
+So that I can meet the requirements for an exercise in the class
+Estimated time: 10 hours
+Acceptance criteria:
+	* Students can visit MyWorkout page, add exercises, sets and reps 
+          <--- eventually subtraction will be allowed too
+Priority: 1
+
+Leftovers from sprint 3:
+
+As a developer
+I would like to utilize the database to determine whether a user is an administrator or student
+So that I can direct them to the appropriate page.
+Estimated time: 10 hours
+Acceptance criteria:
+	* At time of log in users will be directed to admin or regular content 
+          depending on their account credentials
+Priority: 2

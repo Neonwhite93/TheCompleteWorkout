@@ -1,0 +1,45 @@
+PBL:
+update userstories
+
+Retrospective:
+Pros/Wins
+In person meeting consistently. Wednesday lab meeitings have been very helpful. constent emails for important items has been helpful instead of putting them on Hipchat. hipchat is great for quick communication and chatching up on each other. 
+
+Cons/fails
+Getting more group members in with client during each sprint. Time. A clear understanding of what each individual needs to do.  
+
+SBL:
+update userstories
+
+Date: 10/28/2017 
+start time: 5pm
+end time: 6:30 pm
+
+Members in attendance: 
+Nate Spence
+Donovan Miller
+Dustin Boyd
+Halie Carton(Was sick, she was on Hipchat)
+
+length of sprint 3 2 weeks.
+deadline is 11/11/2017
+
+How many workable hours:
+Donovan: 10 hours
+Nate: 10 hours
+Dustin: 10 hours
+Halie: 10 hours
+
+Total capacity 40 hours
+
+next meeting tuesday 10/31/2017
+
+Plans for sprint 3:
+App layout diagram. Donovan
+utalize db (admin page and workout for that day) dustin
+update html to have current workouts and work on asthetics. Nate
+
+"The information in this sprint plan directory is accurate, to the best of my knowledge" 
+Nate Spence
+Dustin Boyd
+Donovan Miller

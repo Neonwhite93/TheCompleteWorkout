@@ -1,0 +1,22 @@
+Team meeting 
+time 9am-10:20
+date: 10/05/2017
+
+Members at the Mandatory meeting
+Nate Spence
+Halie Carton
+Dustin Boyd
+Donovan Miller
+
+Discription:
+Talking about keeping webapp static
+discussed current status of mysql
+discussed what we may need to do for security.
+
+
+What are our plans:
+Make exercise pages w/specified videos - Nate and Halie
+Transition pages - Dustin
+Finish Foriegn key/Indeies - Donovan 
+
+Talked with client 

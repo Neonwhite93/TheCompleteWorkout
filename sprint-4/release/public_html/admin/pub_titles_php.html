@@ -1,0 +1,168 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+
+<!--
+   Example solution for Week 11 Lab Exercise's OPTIONAL variant
+
+   using sessions and Oracle in a little PHP application letting
+   user request a publisher's titles, in such a way that they
+   can request additional publishers' titles WITHOUT having to
+   re-log-in
+
+   Can run this from the URL:
+   http://nrs-projects.humboldt.edu/~st10/328lab11/pub-titles.php
+
+   uses: tcw_conn_sess.php
+         tcw_complain.php
+         create_login.php
+         create_pub_dropdown.php
+         get_pub_titles.php
+         name-pwd-fieldset.html
+         328footer.html
+         bks.css
+
+   by: Sharon Tuttle
+   last modified: 2017-04-17
+-->
+
+<head>
+    <title> pub titles </title>
+    <meta charset="utf-8" />
+
+    <?php
+        require_once("hsu_conn_sess.php");
+        require_once("hw7_complain_and_exit.php");
+        require_once("create_login.php");
+        require_once("create_pub_dropdown.php");
+        require_once("get_pub_titles.php");
+    ?>
+
+    <link href="http://users.humboldt.edu/smtuttle/styles/normalize.css"
+          type="text/css" rel="stylesheet" />
+    <link href="bks.css" type="text/css"
+          rel="stylesheet" />
+</head>
+
+<body>
+    <h1> Publisher's Titles </h1>
+
+    <?php
+
+    // when this is 1st reached, or if next_screen is not in session --
+    //     make a login form
+
+    if (! array_key_exists("next_screen", $_SESSION))
+    {
+        create_login();
+        $_SESSION['next_screen'] = 'choose_pub';
+    }
+
+    // next step IF coming FROM LOGIN: dynamically create a drop-down
+    //    of publishers USING name/pwd FROM FORM
+
+    elseif ($_SESSION['next_screen'] == 'choose_pub')
+    {
+        // get username and password from just-submitted form
+        //    (complain if none submitted)
+
+        if ( (! array_key_exists('username', $_POST)) or
+             (trim($_POST['username']) == "") or
+             (! isset($_POST['username'])) )
+        {
+            hw7_complain_and_exit("no username entered");
+        }
+
+        if ( (! array_key_exists('password', $_POST)) or
+             (trim($_POST['password']) == "") or
+             (! isset($_POST['password'])) )
+        {
+            hw7_complain_and_exit("no password entered");
+        }
+
+        $username = strip_tags($_POST["username"]);
+        $password = $_POST['password'];
+
+        // ...and SAVE them for future-state use
+
+        $_SESSION["username"] = $username;
+        $_SESSION["password"] = $password;
+
+        // NOW proceed to create publisher dropdown
+
+        create_pub_dropdown($username, $password);
+        $_SESSION["next_screen"] = "pub_chosen";
+    }
+
+    // next step IF coming FROM (PREV) PUB_TITLES, and want ANOTHER
+    //     publisher: dynamically create
+    //     drop-down of publishers USING name/pwd FROM SESSION
+
+    elseif (($_SESSION['next_screen'] == "is_user_done") &&
+            (array_key_exists("another_pub", $_POST)))
+    {
+        // get username and password from session
+
+        $username = $_SESSION["username"];
+        $password = $_SESSION["password"];
+
+        // NOW proceed to create publisher dropdown
+
+        create_pub_dropdown($username, $password);
+        $_SESSION["next_screen"] = "pub_chosen";
+    }
+
+    // next step IF coming FROM (PREV) PUB_TITLES, and DONE:
+    //     destroy session
+
+    elseif (($_SESSION['next_screen'] == "is_user_done") &&
+            (array_key_exists("no_more_pub", $_POST)))
+    {
+        session_destroy();
+        session_regenerate_id(TRUE);
+        session_start();
+
+        create_login();
+        $_SESSION['next_screen'] = 'choose_pub';
+    }
+
+    // IF get this far, and says publisher should be chosen,
+    //     try to show chosen publisher's titles
+
+    elseif ($_SESSION["next_screen"] == "pub_chosen")
+    {
+        get_pub_titles();
+
+        // HOW DO you know when session ended?
+        //     ...based on USERs CHOICE from here!
+
+        $_SESSION['next_screen'] = "is_user_done";
+
+    }
+
+    // if NONE of the above were true -- make 'em log in
+    //     again
+
+    else
+    {
+        create_login();
+
+        // since should not get here "normally",
+        //    we'll destroy and restart session in
+        //    this case
+
+        session_destroy();
+        session_regenerate_id(TRUE);
+        session_start();
+
+        $_SESSION['next_screen'] = 'choose_pub';
+    }
+
+    require_once("328footer.html");
+    ?>
+
+</body>
+</html>

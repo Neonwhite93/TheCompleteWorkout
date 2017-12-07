@@ -1,0 +1,36 @@
+date 
+time start: 7:30pm
+time end:8 - 9pm
+
+Members in attendance:
+Donovan Miller
+Dustin Boyd
+Nate Spence
+Halie Carton
+
+
+
+Donovan
+I have been working on getting the mysql up
+I want to get mysql up and running so we can get the back end moving forward. a
+Roadblock technical difficulties with the phpmyadmin and mysql
+
+Dustin
+I've done little aside from brainstorming since last meeting
+I'm tinkering with setting up the basic admin use screens
+I would like to refine my rough drafts
+Road blocks would be last of time, and need for more experience. This will be addressed with add. effort
+
+Nate
+Haven't done much of anything -- "chicken" as they say.
+I want to get my section of the exercise pages up and running by the end of this sprint.
+No roadblocks at this time, but serious schedule constraints until thesis is proposed, as you know.
+
+Halie
+Haven't done as much as I'd like -- chicken
+I want to get my section of the exercise pages up and running
+No roadblocks, just time constraints
+
+Next meeting 10/05/2017
+
+ "The information in this report is accurate, to the best of my knowledge"

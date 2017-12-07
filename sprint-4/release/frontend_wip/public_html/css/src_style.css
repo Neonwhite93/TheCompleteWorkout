@@ -1,0 +1,131 @@
+/* 
+    Created on : Jul 6, 2017, 4:38:28 PM
+    Author     : halcarton
+	
+	Modified 10/25/2017 by Nate Spence
+*/
+
+/* ------------------------------------------
+FRAME CONTENT 
+
+ -- content which remains in place regardless
+    of currently active View.
+------------------------------------------ */
+
+/* style body element */
+body
+{
+    color: #efe988; /* main text/frame color */
+    font-family: Arial, Helvetica, sans-serif;
+	
+	background-repeat: no-repeat;
+	background-image: url("../background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#main_app
+{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* style for the title of the app */
+#app_title 
+{
+	text-align: center;
+}
+
+/* style for the panel within which 
+View content will be displayed */
+#view_panel 
+{
+    border: 2px solid;
+	/*color: white; */ /* view panel color */
+	border-color: #808080; /* main border color */
+	background-color: #333333;
+    border-radius: 5px;
+    padding: 3%;
+    padding-top: 1.5%;
+    margin: 3%;	
+}
+
+/* style for the top and bottom frame bars */
+.frame_bar 
+{
+    background-color: #808080; /* title background color */
+	
+    text-shadow: 4px 4px #333333;
+	
+	color: #efe988;
+
+	border: 2px solid;
+	border-color: #808080;
+    border-radius: 8px;
+	
+    padding: 1.5%;
+}
+
+/* ------------------------------------------
+VIEW CONTENT 
+
+ -- content which changes depending on 
+    current View
+------------------------------------------ */
+
+/* allows user to scroll exercises in the accordian panel */
+.scroll 
+{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+/* ------------------------------------------
+VIDEO CONTENT
+------------------------------------------ */
+
+/* responsive iframe, retrieved from:
+   https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ */
+.video-container 
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+}
+
+/* style video i-frame */
+.video-container iframe 
+{
+    position: absolute;
+    top: 3em;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ------------------------------------------
+MEDIA QUERIES
+------------------------------------------ */
+
+@media screen and (max-width: 600px)
+{
+	body
+	{
+		background-image: none;
+		background-color: #333333;
+	}
+	
+	#main_app
+	{
+		margin: 0px;
+		width: 100%;
+		
+	}
+}
+

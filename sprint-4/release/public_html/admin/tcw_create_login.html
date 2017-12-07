@@ -1,0 +1,26 @@
+<?php
+    /*---
+        function: tcw_create_login
+        purpose: expects nothing, returns nothing,
+                 and makes a form for a username
+                 and password
+
+        uses: login-fieldset.html
+    ---*/
+
+    function create_login()
+    {
+        ?>
+        <form method="post" action="<?= htmlentities($_SERVER['PHP_SELF'], ENT_QUOTES) ?>">
+            <?php
+				require("login-fieldset.html");
+            ?>
+
+            <div class="submit">
+                <input type="submit" value="Login" />
+            </div>
+        </form>
+
+        <?php
+    }
+?>

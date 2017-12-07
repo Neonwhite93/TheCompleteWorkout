@@ -1,0 +1,537 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SRC Fitness App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="accordian-style.css" />
+        <!-- <script src="accordian-java.js" type="text/javascript"></script>
+		
+		NSC: Ah yes, you mentioned this! We'll figure out the unobtrusive 
+		js down the line. Doesn't matter for prototyping :)
+		
+		-->
+    </head>
+    	<body>
+    		<h1 id = "app_title" class = "frame_bar" >SRC FITNESS</h1>
+	
+		<!--
+		See nsc_design_notes Change 4
+		-->	
+
+		<div id = "view_panel">		
+		
+		<!--
+		See nsc_design_notes Change 5
+		-->	
+		<h2 class = "view_title"> EXERCISES </h2> <!-- See nsc_design_notes -->
+
+		<!--
+		See nsc_design_notes Change 7
+		-->
+
+	<div>
+		<button class="accordion">Search All</button>
+		<div class="panel">
+			<br>
+			Enter Search: <input type="text" name="search"><br>
+		
+			<br>
+			Results
+			<ul>
+				<li>Result 1</li>
+				<li>Result 2</li>
+				<li>Result 3</li>
+			</ul>   
+		</div>
+	</div>
+
+<!--
+See nsc_design_notes Change 9
+-->
+<h3> CATEGORIES </h3>
+
+<button class="accordion">Legs</button>
+<div class="panel scroll">
+    <ul>
+        <li>
+            <button class="accordion">Goblet Squat</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Watch Video</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                        <div class="modal-content video-container">
+                            <span class="close">&times;</span>
+                            <iframe width="560" height="315" 
+                                    src="https://www.youtube.com/embed/NIrcxSkwui8" 
+                                    frameborder="0" allowfullscreen>
+                            </iframe>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        Exercise description here
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Hack Squat</button>
+            <div class="panel exercise_panel">
+                <div class="center video-container">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/ZmZ-tu_Rqc4" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Exercise description here
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Dumbell Squat</button>
+            <div class="panel exercise_panel">
+                <div class="center video-container">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/v_c67Omje48" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Exercise description here
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Deadlift</button>
+            <div class="panel exercise_panel">
+                <div class="center video-container">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/op9kVnSso6Q" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Exercise description here
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Squats- front</button>
+            <div class="panel exercise_panel">
+                <div class="center video-container">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/m4ytaCJZpl0" 
+                            frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Grasp barbell from rack or clean barbell 
+                        from floor with overhand open grip, slightly wider 
+                        than shoulder width. Position barbell chest high with 
+                        back arched. Place bar in front of shoulders with 
+                        elbows placed forward as high as possible and finger 
+                        under bar to each side With heels hip width or slightly 
+                        wider, position feet outward at approximately 45°.
+                        Then, Descend until knees and hips are fully bent or 
+                        until thighs are just past parallel to floor. Knees 
+                        travel outward in direction of toes. Extend knees and 
+                        hips until legs are straight. Return and repeat.
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Squats- back</button>
+            <div class="panel exercise_panel">
+                <div class="center video-container">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/ultWZbUMPL8" 
+                            frameborder="0" allowfullscreen>           
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Dismount bar from rack and stand with shoulder 
+                        width stance. Squat down by bending hips back while 
+                        allowing knees to bend forward, keeping back straight 
+                        and knees pointed same direction as feet. ... 
+                        Extend knees and hips until legs are straight. 
+                        Return and repeat. 
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Leg Press</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/Aq5uxXrXq7c" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Your torso and the legs should make a 
+                        perfect 90-degree angle. This will be your starting 
+                        position. As you inhale, slowly lower the platform 
+                        until your upper and lower legs make a 90-degree angle. 
+                        Pushing mainly with the heels of your feet and using 
+                        the quadriceps go back to the starting position as 
+                        you exhale. 
+                    </p>    
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<button class="accordion">Push</button>
+<div class="panel scroll">
+    <ul>
+        <li>
+            <button class="accordion">Bench Press</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/XSza8hVTlmM" 
+                            frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Proper Bench Press form starts lying on a Bench with 
+                        your feet on the floor. Un-rack the bar with straight 
+                        arms. Lower it to your mid-chest. Press it back up 
+                        until you have locked your elbows. Keep your butt on 
+                        the bench. The Bench Press is a full body, 
+                        compound exercise. It works your chest, shoulders 
+                        and triceps most.To avoid shoulder pain, tuck your 
+                        elbows 75° when you lower the bar. Don’t try to stretch 
+                        your chest by flaring your elbows 90° out. You’ll 
+                        impinge your shoulders if your upper-arms are 
+                        perpendicular to your torso at the bottom. 
+                        Tuck your elbows 75° to Bench Press pain-free.
+                        Unlike the Squat or Deadlift, the bar doesn’t move 
+                        in a vertical line when you Bench Press with proper 
+                        form. It moves diagonally from your mid-chest over 
+                        your shoulders. This is the safest way to Bench Press 
+                        for your shoulders.
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Incline Bench Press</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/K155czQ5LZw" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Grab a barbell with an overhand grip that's 
+                        shoulder-width apart and hold it above your chest. 
+                        Extend arms upward, locking out elbows. Lower the bar 
+                        straight down in a slow, controlled movement to your 
+                        chest. Pause, then press the bar in a straight line 
+                        back up to the starting position.
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Military Press</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/g5Qvck9AcWk" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Start by placing a barbell that is about chest high 
+                        on a squat rack. Once you have selected the weights, 
+                        grab the barbell using a pronated (palms facing forward) 
+                        grip. Make sure to grip the bar wider than shoulder 
+                        width apart from each other. Then, slightly bend the 
+                        knees and place the barbell on your collar bone. 
+                        Lift the barbell up keeping it lying on your chest. 
+                        Take a step back and position your feet shoulder 
+                        width apart from each other. Once you pick up the 
+                        barbell with the correct grip length, lift the bar 
+                        up over your head by locking your arms. Hold at about 
+                        shoulder level and slightly in front of your head. 
+                        This is your starting position. Lower the bar down 
+                        to the collarbone slowly as you inhale. Lift the bar 
+                        back up to the starting position as you exhale. Repeat 
+                        for the recommended amount of repetitions.
+                    </p>    
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<button class="accordion">Pull</button>
+<div class="panel scroll">
+    <ul>
+        <li>
+            <button class="accordion">Dumbbell Row</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/gup09tpC708" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        First, choose a flat bench and place a dumbbell on 
+                        each side of it. Next, Place the right leg on top of 
+                        the end of the bench, bend your torso forward from the 
+                        waist until your upper body is parallel to the floor, 
+                        and place your right hand on the other end of the bench 
+                        for support. Use the left hand to pick up the dumbbell 
+                        on the floor and hold the weight while keeping your 
+                        lower back straight. The palm of the hand should be 
+                        facing your torso. This will be your starting position.
+                        Pull the resistance straight up to the side of your 
+                        chest, keeping your upper arm close to your side and 
+                        keeping the torso stationary. Breathe out as you 
+                        perform this step. Tip: Concentrate on squeezing 
+                        the back muscles once you reach the full contracted 
+                        position. Also, make sure that the force is performed 
+                        with the back muscles and not the arms. Finally, the 
+                        upper torso should remain stationary and only the arms 
+                        should move. The forearms should do no other work 
+                        except for holding the dumbbell; therefore do not try 
+                        to pull the dumbbell up using the forearms. Lower the 
+                        resistance straight down to the starting position. 
+                        Breathe in as you perform this step. Repeat the 
+                        movement for the specified amount of repetitions. 
+                        Switch sides and repeat again with the other arm.
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Lat Pull</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/JEb-dwU3VF4" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                      Lat is a shortened word for a muscle in your mid back 
+                      called the latissimus dorsi. The latissimus is the 
+                      broadest muscle in your back, spanning from the bottom 
+                      of your shoulder blades to about an inch or so above your 
+                      hips. This muscle is the target for these pull-downs. 
+                      The lat muscle is what draws the arm backwards and 
+                      downwards, also rotating the front of the arm towards 
+                      the body. This action helps when reaching for objects 
+                      as well as lifting them. It also aids in pushing and 
+                      pulling doors. Remember when using a machine; adjust 
+                      the weight to a comfortable level for you. 
+                      Stay hydrated through all workouts. 
+                      How to: Sit at a lat pull-down station and grab the bar 
+                      with an overhand grip that's just beyond shoulder width. 
+                      Your arms should be completely straight and your torso 
+                      upright. Pull your shoulder blades down and back, and 
+                      bring the bar to your chest. Pause, then slowly return 
+                      to the starting position.
+                    </p>    
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<button class="accordion">Core</button>
+<div class="panel scroll">
+    <ul>
+        <li>
+            <button class="accordion">Crunches</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/Xyd_fa5zoEU" 
+                            frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        First, Lie flat on your back with your feet flat on 
+                        the ground, or resting on a bench with your knees bent 
+                        at a 90 degree angle. If you are resting your feet on 
+                        a bench, place them three to four inches apart and 
+                        point your toes inward so they touch. Now place your 
+                        hands lightly on either side of your head keeping your 
+                        elbows in. Tip: Don't lock your fingers behind your 
+                        head. While pushing the small of your back down in the 
+                        floor to better isolate your abdominal muscles, begin 
+                        to roll your shoulders off the floor. Continue to push 
+                        down as hard as you can with your lower back as you 
+                        contract your abdominals and exhale. Your shoulders 
+                        should come up off the floor only about four inches, 
+                        and your lower back should remain on the floor. At the 
+                        top of the movement, contract your abdominals hard and 
+                        keep the contraction for a second. Tip: Focus on slow, 
+                        controlled movement - don't cheat yourself by using 
+                        momentum. After the one second contraction, begin to 
+                        come down slowly again to the starting position 
+                        as you inhale. Repeat for the recommended amount of 
+                        repetitions.
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Leg Raises</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/JB2oyawG9KI" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        First, lie on your back, legs straight and together. 
+                        Keep your legs straight and lift them all the way up 
+                        to the ceiling until your butt comes off the floor. 
+                        Slowly lower your legs back down till they're just 
+                        above the floor. Hold for a moment. Raise your legs 
+                        back up. Repeat.
+                    </p>    
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="accordion">Jack Knife</button>
+            <div class="panel exercise_panel">
+                <div class="center">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/I0EJnQlJqMU" 
+                            frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        Lie flat on the floor (or exercise mat) on your back 
+                        with your arms extended straight back behind your head 
+                        and your legs extended also. This will be your starting 
+                        position. As you exhale, bend at the waist while 
+                        simultaneously raising your legs and arms to meet 
+                        in a jackknife position. Tip: The legs should be 
+                        extended and lifted at approximately a 35-45 degree 
+                        angle from the floor and the arms should be extended 
+                        and parallel to your legs. The upper torso should be 
+                        off the floor. While inhaling, lower your arms and 
+                        legs back to the starting position. Repeat for the 
+                        recommended amount of repetitions.
+                    </p>    
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</div>
+
+
+<!--
+See nsc_design_notes Change 6
+-->
+<div class = "frame_bar pos_fixed">
+	<ul id = "view_nav_ul">
+		<li class = "view_nav">Nav 1</li>
+		<li class = "view_nav">Nav 2</li>
+		<li class = "view_nav">Nav 3</li>
+		<li class = "view_nav">Nav 4</li>
+		<li class = "view_nav">Nav 5</li>
+	</ul> 
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) 
+{
+	acc[i].onclick = function()
+	{
+        	this.classList.toggle("active");
+        	var panel = this.nextElementSibling;
+        	if (panel.style.display === "block") 
+		{
+            		panel.style.display = "none";
+        	} 
+		else 
+		{
+            		panel.style.display = "block";
+        	}
+	};
+}
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() 
+{
+	modal.style.display = "block";
+};
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() 
+{
+	modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) 
+{
+	if (event.target === modal) 
+	{
+        	modal.style.display = "none";
+	}
+};
+
+</script>
+    </body>
+</html>

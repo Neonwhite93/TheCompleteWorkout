@@ -1,0 +1,22 @@
+Donovan Miller
+Dustin Boyd
+
+Halie Carton (emailed us she wont make due to being sick)
+Nate Spence (emailed us he wont make it due to back/upper leg pain)
+
+date 11/15/2017
+
+Daily discussions...
+
+	* Discussed designs and colors we will implement now and at a later date
+	* discussed issues getting admin pages up on TheCompleteWorkout website.
+	* worked on solving the admin page problem and working on admin pages. 
+    * implementing our javascript to the my_workout.php
+
+    *Discussed next team meeting (daily scrum) thursday 11/15/2017
+
+
+
+"This information is true to the best of my knowledge."
+- Donovan Miller
+- Dustin Boyd

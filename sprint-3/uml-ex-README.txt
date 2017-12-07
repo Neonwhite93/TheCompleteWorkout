@@ -1,0 +1,1 @@
+We chose a use case UML diagram because the primary purpose of our application is for the users to be able to document their workouts. Users can view exercise videos and, when signed in, they can record their workouts and submit them to the teacher/administrator.

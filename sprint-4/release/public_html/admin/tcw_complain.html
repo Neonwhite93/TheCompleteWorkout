@@ -1,0 +1,34 @@
+<?php
+    /*-----
+        function: hw7_complain_and_exit
+        purpose: expects a string giving a complaint,
+            and returns nothing, but has the side-effects of
+            outputting a complaint screen including that
+            complaint, destroying the current session, and exiting
+
+        requires: 328footer.html
+    -----*/
+
+    function hw7_complain_and_exit($complaint)
+    {
+        ?>
+        <h2> Cannot proceed:
+             <?= strip_tags($complaint) ?>
+        </h2>
+
+        <form method="post"
+              action="<?= htmlentities($_SERVER['PHP_SELF'],
+                                       ENT_QUOTES) ?>">
+            <input type="submit" value="try again" />
+        </form>
+
+        <?php
+        require_once('328footer.html');
+        ?>
+</body>
+</html>
+        <?php
+        session_destroy();
+        exit;
+    }
+?>

@@ -1,0 +1,38 @@
+10/31/2017
+time start: 7:30pm
+time end:8 - 9pm
+
+Members in attendance:
+Halie Carton
+Donovan Miller
+Nate Spence
+
+
+Donovan
+
+1) Since last meeting I have Helped organize and rewrite some txt files in our directoies
+2) I would like to help set up dynamic data from the db, check on the in house videos, discuss current state with client.
+3) No roadblocks.
+
+Dustin
+1) 
+2) 
+3) 
+
+Nate
+1) Haven't accomplished anything since last meeting.
+2) What I'd like to do next is update the video/description content from your excel doc, and test a background/limited dimensions for the app.
+3) No roadblocks.
+
+Halie
+1) I created a finite state machine for the user/Admin panel,
+2) I am going to work on translating the finite state machine into PHP
+3) and I don't have any roadblocks
+
+Next meeting 11/2/2017
+
+ "The information in this report is accurate, to the best of my knowledge"
+
+- Nate Spence
+- Donovan Miller
+- Halie Carton

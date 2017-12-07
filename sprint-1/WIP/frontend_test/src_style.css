@@ -1,0 +1,226 @@
+/* 
+    Created on : Jul 6, 2017, 4:38:28 PM
+    Author     : halcarton
+	
+	Modified 9/13/2017 by Nate Spence
+*/
+
+/* ------------------------------------------
+GENERAL CONTENT
+------------------------------------------ */
+
+/* Styles the p element */
+p
+{
+    padding: 2%;
+}
+
+/*This class centers an element and adds some space between other elements*/
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    text-align: center;
+}
+
+/* Styles body element */
+body
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333333;
+}
+
+/* Styles ul element */
+ul 
+{
+    list-style-type: none;
+    padding: 1%;
+}
+
+/* ------------------------------------------
+ACCORDION CONTENT
+------------------------------------------ */
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion
+{
+    background-color: #333333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em; 
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 4px solid #87a625;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on 
+(add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover 
+{
+    background-color: #808080;
+    color: white;
+}
+
+/* Styles effects on accordion after mouse exit */
+button.accordion:after
+{
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    background-color: white;
+    border: 2px solid #933621;
+    border-radius: 50%;
+    padding: 3px;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Styles effects on accordion after mouse exit, if accordion left active */
+button.accordion.active:after
+{
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel 
+{
+    padding: 0 18px;
+    display: none;
+}
+
+/* ------------------------------------------
+FRAME CONTENT 
+
+ -- remains in place regardless
+    of currently active View.
+------------------------------------------ */
+
+/* Style for the title of the app. */
+#app_title 
+{
+	
+	text-align: center;
+}
+
+/* Style for the panel within which 
+View content will be displayed. */
+#view_panel 
+{
+	
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 3%;
+    padding-top: 1.5%;
+    margin: 3%;
+	
+}
+
+/* Style for the top and bottom frame bars. */
+.frame_bar 
+{
+    background-color: gray;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1.5%;
+}
+
+/* Style for list of view_nav buttons */
+#view_nav_ul 
+{
+	
+	/* just eye-balling this -- we can be smarter about it... */
+	padding-left: 4%; 
+}
+
+/* Style for buttons used to change Views. */
+.view_nav 
+{
+	float: left;
+	width: 18%;
+	background-color: #5c8021;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 5px;
+}
+
+/* ------------------------------------------
+VIEW CONTENT 
+
+ -- changes depending on which
+    View is active.
+------------------------------------------ */
+
+/* Style for the title of the active View */
+.view_title 
+{
+	
+	padding-bottom: 1.5%;	
+}
+
+/* This styles the exercise buttons (formerly list items) into 
+   nested accordians. Will work on design later.   
+*/
+.exercise_panel
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #808080;
+}
+
+/* These two rules make sure that the navigation panel
+   remains at the bottom of the screen even when the
+   accordion panels are open */
+.pos_fixed 
+{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+/*This allows user to scroll exercises in the accordian panel */
+.scroll 
+{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+/* ------------------------------------------
+VIDEO CONTENT
+------------------------------------------ */
+
+/* For making the iframe responsive. Got it from this website:
+   https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ */
+.video-container 
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Styles video i-frame */
+.video-container iframe 
+{
+    position: absolute;
+    top: 3em;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,46 @@
+Project Sasquatch
+
+Date: 09/23/2017
+Start Time: 5pm
+End Time: 7pm
+
+Names:
+Donovan Miller
+Halie Carton
+Dustin Boyd
+Nate Spence - Not there physically but through hipchat, when 
+needed.
+
+Kris Anderson
+Nathon Ortolan
+
+Length of sprint is 2 weeks
+Deadline is 10/07/2017
+
+Hours this Sprint
+Donovan 8
+Dustin 10
+Halie 10
+Nate 6
+
+User stories are in pbl_1.txt
+
+Next meeting
+type daily scurm
+date 09/26/2017
+time 7:30pm - 9pm
+
+Currently don't have it in writing but discused and showed our current state to our Client, Drew Peterson, and he likes what we have done and is on board. 
+
+Summary: 
+Each member discussed What they had done
+Halie, Nate: front end code
+Donovan, Nathon: ERD refining and db creation
+Dustin: Getting up to date on the project, researching admin screen. 
+Kris: manage meeting times
+
+Then discussed what our next steps are:
+Refactor v0.1 UI code - Halie and Nate
+Connect to MySQL with Python Donovan Dustin
+Find out if nrs-projects, nrs-labs, or myhumboldt can host MySQL - Donovan
+

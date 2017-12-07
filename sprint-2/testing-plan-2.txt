@@ -1,0 +1,25 @@
+Unit testing plan for this sprint:
+
+Front-end:
+
+Categories for all exercises open
+Categories are mutually exclusive -- only one can be open at a time 
+Display scrollable list of exercises 
+
+Acceptance testing plan for this sprint:
+
+	* After viewing video when you return to the main page the accordion
+	  you last used is still open.
+	* AND, with above, the accordion scroll-bar should be focused 
+          on the button you last clicked
+
+
+	* Detailed and SAFE instructions available for each exercise
+
+	* Verify connection to DB programatically
+	* Display something from the DB on the web app
+	* Change content in DB from web app
+
+	* User on android phone can pause video mid-play
+
+	* User on android phone can access youtube video controls

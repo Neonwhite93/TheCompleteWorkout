@@ -1,0 +1,101 @@
+/* @media (min-width: 320px) <-- media queries weren't working
+  and (max-width: 599px)
+{
+*/	li 
+	{
+		overflow: hidden; /* This rule was my solution to 
+		                     the image resizing properly */
+	}
+	a
+	{
+	    text-decoration: none;
+	    color: white;
+	}
+
+	.ex_link
+	{
+	    width: 100%;
+	    height: 5%;
+	    border: 0.2em white solid;
+	    border-radius: 5px;
+	}
+
+	.ex_link:hover
+	{
+	    background-color: #808080;
+	}
+
+	.frame
+	{
+		margin-right: 2em;
+		margin-top: -1px;
+		width: 30%;
+		height: 30%;
+		float: left;
+	}
+
+	/* For making the exercise preview image in the main nav 
+	   float to the left and have the exercise name and 
+	   description line up beside it.
+	*/
+	.ex_img
+	{
+	    width: 50%;
+	    height: 50%;
+	    margin: 10%;
+	}
+
+	/* This styles the div containing the exercise name and 
+	   description, so that it will flow up next to the image
+	*/
+
+	.ex_desc 
+	{
+	    width: 73%;
+	}
+
+	h3
+	{
+	    color: #87a625;
+	}
+
+	p.ex_desc
+	{
+	    color: white;
+	}
+/*
+  Media queries were not working properly :(
+}
+
+@media (min-width: 600px) 
+  and (max-width: 799px)
+{
+    frame
+	{
+		width: 35%;
+		height: 35%;
+		margin-top: 0em;
+	}
+}
+
+@media (min-width: 800px) 
+  and (max-width: 999px)
+{
+    frame
+	{
+		width: 25%;
+		height: 25%;
+		margin-top: 0em;
+	}
+}
+
+@media (min-width: 1000px) 
+  and (max-width: 2000px)
+{
+    frame
+	{
+		width: 15%;
+		height: 10%;
+	}
+}
+*/

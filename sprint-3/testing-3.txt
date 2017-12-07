@@ -1,0 +1,25 @@
+
+Unit testing for sprint 3:
+
+	// PASS
+
+	Accordion content from previous sprint still working after superficial CSS changes <-- pass
+	Scaling down window, or loading on phone will remove background image <-- pass
+
+Acceptance testing for sprint 3:
+
+	// PASS
+
+	* Main application content will be clamped at reasonable horizontal/vertical dimensions (phone-esque scale) <-- pass
+	* Background image will fill in remaining space <-- pass
+
+	* Visual diagram of various pages and interactions between pages <-- created, pass
+	* Visual diagram of interactions between web app and database <-- created, pass
+
+	// FAIL
+
+	
+	* Users can log in, using their HSU ID/password <-- still not working?
+
+	* At time of log in users will be directed to admin or regular content <-- not yet working
+          depending on their account credentials

@@ -1,0 +1,43 @@
+COMPLETED: 
+
+As a a user 
+I want an appealing and easy to use interface
+SO that I can get the information I need quickly and safely
+Time estimated: 2 hours	
+	* Detailed and SAFE instructions available for each exercise
+
+As a developer 
+I would like to connect the website to the database
+So that I can access the database from the web app 
+Estimated time: 5 hours
+Acceptance criteria:
+	* Verify connection to DB programatically
+	* Display something from the DB on the web app
+	* Change content in DB from web app
+
+As a android phone user
+I would like to be able to pause the video while it plays
+So that I can control the pace of viewing the video
+Estimated time: 2 hours
+Acceptance criteria:
+	* User on android phone can pause video mid-play
+
+As a android phone user
+I would like to be able to control the volume, slider, settings of the video
+So that I can customize my video experience
+Estimated time: 2 hours
+Acceptance criteria:
+	* User on android phone can access youtube video controls
+
+INCOMPLETE:
+
+
+As a user
+I would like the app to remember the accordion I was in
+So that I can resume where I left off after viewing a video
+Estimated time: 8 hours
+Acceptance criteria:
+	* After viewing video when you return to the main page the accordion
+	  you last used is still open.
+	* AND, with above, the accordion scroll-bar should be focused 
+          on the button you last clicked
